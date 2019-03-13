@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>My First HTML</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--Navigation bar-->
+ <nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+  <div class="container-fluid" >
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="foto/title.png" style="float:left;" alt="logo" width="230" height="260"></a>
+    </div>
+      <div  id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li><a href="#section2">STUDIUM</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PRESSE<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section31">PLAKAT</a></li>
+              <li><a href="#section32">RADIOSPOT</a></li>
+            </ul>
+          </li>
+          <li><a href="#section4">IMPRESSUM</a></li>
+        </ul>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#section5"><span class="glyphicon glyphicon-envelope"></span>BEWERBUNG</a></li> <!-- Right side--->
+      </ul>
+      </div>
+</nav>
+
+
+<!--Section 1-->
+<div id="section1" class="container-fluid text-center">
+    <br><br>
+    <img src="foto/Frau.png" alt="woman" width="500" height="550" style="float:left;">
+    <h1 class="title"><strong>Gotham Akademie</strong> für </h1><h2>Superheldendesign</h2>
+    <br>
+    <h4 class="style">Unser Institut ist die weltweit führende Akademie für Superheldenkostümdesign.
+      Sie hat es sich zu ihrer Aufgabe gemacht, Designer aus aller Welt auszubilden, um die Welt der Superhelden durch bahnbrechende
+      Designs beim Kampf gegen das Böse zu unterstützen. Zu ihren Alumni gehören Designer wie <em>Edna Mode</em>, die sich ihrerseits durch die
+       bahnbrechenden Kostümdesigns der Superheldenfamlie „Die Unglaublichen“ einen Namen gemacht hat.</h4>
+    <a href="#section5" style="" ><button href="#section5" class="button"><strong>BEWIRB DICH JETZT</strong><br><span class="glyphicon glyphicon-hand-up"></span></button></a>
+</div>
+<!--Section 2-->
+<div id="section2" class="container text-center">
+     <h3 class="title1">INHALT</h3><br><br>
+     <p>Bei uns lernst du, wie die Kostüme von Batman, Spider-Man, Wonder Woman und Co.
+       hier ihre Anfänge fanden, wie man eine Hose designen kann, damit sie, wenn Bruce Banner zum Hulk wird,
+        nicht platzt oder wie du deine eigenen Kreationen in Zusammenarbeit mit echten Superhelden umsetzen kannst. </p><br>
+     <div class="row">
+       <div class="col-sm-4">
+         <p><strong>Superman</strong></p><br>
+         <img src="foto/superman.jpg" alt="Superman" width="255" height="255">
+       </div>
+       <div class="col-sm-4">
+         <p><strong>Wonder Woman</strong></p><br>
+         <img src="foto/wonderwoman.jpg" alt="Wonder Woman" width="255" height="255">
+       </div>
+       <div class="col-sm-4">
+         <p><strong>Batman</strong></p><br>
+         <img src="foto/batman.jpg" alt="Batman" width="255" height="255">
+       </div>
+     </div>
+</div>
+<!--Section 3-1 -->
+<div id="section31" class="container-fluid text-center">
+  <img border="0" src="foto/End_Version.png" alt="plakat" width="400" height="550" style="float:right;">
+    <h3 class="title1" align="center">PLAKAT</h3>
+    <br><br><br><br><br><br>
+    <h4 align="center">Unser Werbeplakat können Sie hier downloaden.</h4>
+    <br><br>
+  <a href="foto/End_Version.png" download>
+    <button class="button1" >Download</button>
+  </a>
+</div>
+<!--Section 3-2 -->
+<div id="section32" class="container-fluid text-center">
+    <h3 class="title1" align="center">RADIOSPOT</h3><br><br><br><br><br><br><br>
+  <audio id="myAudio" style="text-align:center;" controls>
+  <source src="Radiospot_Superhelden.ogg" type="audio/ogg">
+  <source src="Radiospot_Superhelden.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <br><br><br><br><br><br><br><br>
+  <h4 align="center">Unser Radiospot können Sie hier downloaden.</h4><br>
+  <a href="Radiospot_Superhelden.mp3" download>
+    <button class="button1" >Download</button>
+  </a>
+</div>
+<!--Section4 -->
+<br>
+<div id="section4" class="container-fluid text-center">
+<h3 class="title1" align="center">IMPRESSUM</h3>
+<div class="row">
+  <div class="col-sm-4">
+    <h4><strong>Adresse</strong></h4><br>
+    <p>Gotham Akademie für Superheldenkostümdesign<br>
+Bruce Wayne Street<br>
+6783 Gotham</p>
+  </div>
+  <div class="col-sm-4">
+    <h4><strong>Betreiber</strong></h4><br>
+    <p>Irina Thobe<br>
+Ainizhaer Aierken</p>
+  </div>
+  <div class="col-sm-4">
+    <h4><strong>Quellen</strong></h4><br>
+    <p style="font-size:10px"><strong>BILDQUELLEN:</strong>
+Logo
+5187396, <a href="https://pixabay.com/p-2258596/?no_redirect">https://pixabay.com/p-2258596/?no_redirect</a> , CC0, Abruf am 04.12.17.
+Frauenkopf
+OpenClipart-Vectors, <a href="https://pixabay.com/de/comics-gesicht-weiblich-frau-2025625/">https://pixabay.com/de/comics-gesicht-weiblich-frau-2025625/</a>, CC0, Abruf am 13.12.17.
+Sprechblase
+Clker-Free-Vector-Images, <a href="https://pixabay.com/en/thought-bubble-think-comic-blank-305053/">https://pixabay.com/en/thought-bubble-think-comic-blank-305053/</a>, CC0, Abruf am 13.12.17
+Wonder Woman:
+Bearbeitet auf Grundlage von: Claudio Montes, Wonder Woman, <a href="https://www.flickr.com/photos/monky/559088373/in/album-72157604467491759/">https://www.flickr.com/photos/monky/559088373/in/album-72157604467491759/</a>, CC BY-NC 2.0, Abruf am 11.12.17.
+Batman:
+Bearbeitet auf Grundlage von: Claudio Montes, Batman, <a href="https://www.flickr.com/photos/monky/558758844/in/album-72157604467491759/">https://www.flickr.com/photos/monky/558758844/in/album-72157604467491759/</a>, CC BY-NC 2.0, Abruf am 11.12.17.
+Captain America:
+Bearbeitet auf Grundlage von: Claudio Montes, Captain America, <a href="https://www.flickr.com/photos/monky/3572214266/in/album-72157604467491759/">https://www.flickr.com/photos/monky/3572214266/in/album-72157604467491759/</A>, CC BY-NC 2.0, Abruf am 11.12.17.
+Superman:
+Bearbeitet auf Grundlage von: Claudio Montes, Superman, <a href="https://www.flickr.com/photos/monky/3663267599/in/album-72157604467491759/">https://www.flickr.com/photos/monky/3663267599/in/album-72157604467491759/</a>, CC BY-NC 2.0, Abruf am 11.12.17.
+Hintergrund:
+DavidZydd, <a href="https://pixabay.com/de/spirale-hintergrund-spirale-drehen-2481434/">https://pixabay.com/de/spirale-hintergrund-spirale-drehen-2481434/</a>, CC0, Abruf am 12.12.17
+Alle anderen Grafiken wurden von uns selbst erstellt.<br> <strong>AUDIOQUELLEN:</strong> oscaraudiogeek, Flash and Quicksilver,
+ <a href="https://freesound.org/people/oscaraudiogeek/sounds/333515/">https://freesound.org/people/oscaraudiogeek/sounds/333515/</a>, CC 0, Abruf am 12.01.18. Carlos Estella, Epic Majestic
+ Heroic Orchestral, <a href="https://www.jamendo.com/track/1450590/epic-majestic-heroic-orchestral">https://www.jamendo.com/track/1450590/epic-majestic-heroic-orchestral</a>, CC BY-NC-Sa, Abruf am
+ 12.01.18. Bearbeitet auf Grundlage von: newagesoup, long wispy woosh3, <a href="https://freesound.org/people/newagesoup/sounds/377828/">https://freesound.org/people/newagesoup/sounds/377828/</a>,
+  CC BY 3.0, Abruf am 12.01.18.
+</p>
+  </div>
+</div>
+</div>
+
+<!--Fragen -->
+<div id="section5" class="container">
+  <h2>Einfach bewerben!</h2>
+  <p>Um dich zu bewerben, sende bitte deine Mappe mit aussagekräftigen Kostümdesigns an unsere <a href="#section4">Adresse!</a></p>
+<form>
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+  <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div>
+</form>
+  <form>
+    <div class="form-group">
+      <label for="comment">Bewerbung:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+  <button type="button" class="btn btn-default">Senden</button>
+</div>
+
+<!--oben gehen -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Oben gehen<a href="#" data-toggle="tooltip" title="Visit w3schools"></a></p>
+</footer>
+
+</body>
+</html>
